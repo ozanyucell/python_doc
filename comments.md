@@ -20,6 +20,7 @@ print("Hello world!")
 #Python will ignore everything in here. Even if it is executable.
 print("Hello world!")
 ```
+* Only one "Hello world!" will be printed.
 
 #
 * See you on the next document!
