@@ -1,4 +1,4 @@
-<h1 align='center'> Lists </h1>
+# Lists
 * Lists are used to store multiple data in a single variable. This is similar to arrays that exist in many other programming languages.
 * We are creating lists with square brackets:
 
