@@ -15,7 +15,7 @@ list_name = list(("variable_0", "variable_1", "variable_2", "variable_3"))
 ```
 
 # Indexes
-* List's data are indexed by starting from 0. So,
+* The data of the list is indexed by starting from 0.
 ```
 variable_0 => 0. index
 variable_1 => 1. index
@@ -23,7 +23,7 @@ variable_2 => 2. index
 variable_3 => 3. index
 ```
 
-* Python also supports negative indexing,
+* Python also supports negative indexing.
 ```
 variable_0 =>  0. index
 variable_1 => -3. index
@@ -68,7 +68,7 @@ print(games[:3])
 * For checking a variable is in a list or not,
 ```
 movies = ["Sicario", "Interstellar", "Arrival"]
-if "Arrival" in thislist:
+if "Arrival" in movies:
   print("Arrival is in the list.")
 else:
   print("Arrival is not in the list.")
