@@ -71,7 +71,37 @@ movies = ["Sicario", "Interstellar", "Arrival"]
 movies[1] = "Matrix"
 ```
 * With this we changed "Interstellar" with "Matrix".
+* Also we can use : operator for changing multiple data from our list.
+```
+tv_series = ["mr_robot", "breking_bad", "rick_and_morty", "vikings"]
+tvseries[1:3] = "sherlock"
+```
+* This will remove index 1 and index 2, then it will insert sherlock to index 1. After operation, list is going to look like this: ["mr_robot", "sherlock", "vikings"]
 
+# Inserting Data
+### instert()
+* For inserting a new item into our list, we can use instert() function. First, we should define in which index the data will be added, and then the data will be added. 
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+movies.insert(2, "Inception")
+```
+* This will insert "Inception" on index 2. At the end, list will have 4 items.
+
+### append()
+* There is also a append() method. This method doesn't take index input. Adds the data directly to the end of the list.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+movies.append("Inception")
+```
+* This will add "Inception" at the end of the list. After the operation list will look like: ["Sicario", "Interstellar", "Arrival", "Inception"]
+
+### extend()
+* For adding a list on another list, we can use extend() method.
+```
+games = ["Soma", "Alien Isolation", "Battlefield 1", "Metro Exodus", "Red Dead Redemption 2"]
+survival_games = ["Subnautica", "Terraria", "Minecraft"]
+games.extend(survival_games)
+```
 
 
 # Checking if a variable exists in the list
