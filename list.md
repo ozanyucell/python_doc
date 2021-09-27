@@ -64,6 +64,16 @@ print(games[:3])
 ```
 * This will print out index 0, index 1 and index 2.
 
+# Changing values
+* To change any, we should give its index number.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+movies[1] = "Matrix"
+```
+* With this we changed "Interstellar" with "Matrix".
+
+
+
 # Checking if a variable exists in the list
 * For checking a variable is in a list or not,
 ```
