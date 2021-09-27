@@ -103,6 +103,43 @@ survival_games = ["Subnautica", "Terraria", "Minecraft"]
 games.extend(survival_games)
 ```
 
+# Deleting Data
+### remove()
+* For removing values from a list, we can use remove() method.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+movies.remove("Sicario")
+```
+* This will remove "Sicario" from the list. List will look like: ["Interstellar", "Arrival"]
+
+### pop()
+* pop() method removes the specified index.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+movies.pop(0)
+```
+* This will also remove "Sicario", and look the same.
+
+### del()
+* del() also removes a specified index.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+del movies[0]
+```
+* Again same deletion, same list after the operation. del() method can delete the list too.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+del movies
+```
+* List won't exist after **'del movies'**.
+
+### clear()
+* clear() method will remove all the content of list. But list will remain.
+```
+movies = ["Sicario", "Interstellar", "Arrival"]
+movies.clear()
+```
+* After the operation, list is going to be: []
 
 # Checking if a variable exists in the list
 * For checking a variable is in a list or not,
