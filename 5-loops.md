@@ -36,6 +36,13 @@ while i < 5:
     break
 ```
 * Now this will only print 0, 1, 2 and 3. Because we told it to break the loop if i equals to 4.
+* Output
+```
+0
+1
+2
+3
+```
 
 ### continue
 * With this statement, we can stop the current iteration and continue with the next. Try to run this code block,
@@ -44,17 +51,53 @@ i = 0
 
 while i < 3:
     print("--------------------------------------")
-    print("Value before continue:" + str(i))
+    print("Value before continue: " + str(i))
+
     i += 1
+
     if i==2:
         continue
+    
     #AFTER CONTINUE WON'T WORK IN THE ITERATION WHICH i=2
+
     print("Value after continue: " + str(i))
     print("i is not 2 in this iteration.")
 ```
-
+* Output
+```
+--------------------------------------
+Value before continue: 0
+Value after continue: 1
+i is not 2 in this iteration.
+--------------------------------------
+Value before continue: 1
+--------------------------------------
+Value before continue: 2
+Value after continue: 3
+i is not 2 in this iteration.
+```
 ### else
-* 
+* This statement will run when while condition is no longer True.
+
+```
+i = 0
+
+while i < 5:
+  print(i)
+  i += 1
+else:
+  print("---------------------------")
+  print("i is no longer less than 5.")
+```
+* Output
+```
+0
+1
+2
+3
+4
+---------------------------
+i is no longer less than 5.
+```
 
 ## for loop
-
