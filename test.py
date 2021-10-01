@@ -1,8 +1,11 @@
-x = [1, 3, 4, 5, 6, 7, 8, 9]
+i = 0
 
-if 1 in x:
-    if 2 in x:
-        pass
-
-    else:
-        print("1 is in list and 2 is not in the list.") # this won't print out
+while i < 3:
+    print("--------------------------------------")
+    print("Value before continue:" + str(i))
+    i += 1
+    if i==2:
+        continue
+    #AFTER CONTINUE WON'T WORK IN THE ITERATION WHICH i=2
+    print("Value after continue: " + str(i))
+    print("i is not 2 in this iteration.")
