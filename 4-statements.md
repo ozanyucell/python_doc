@@ -50,3 +50,38 @@ elif "Sinem" in Family:     #False
 else:
     print("This is going to be printed.")
 ```
+
+## Short "if" and "else" statements
+* There is a short way to implement "if" statements if we have only one statement.
+```
+x=10
+y=5
+
+if x > y: print("x is greater than y.")
+```
+or
+```
+x = 32
+y = 124
+
+print("x is greater than y.") if x > y else print("y is greater than x.")
+```
+
+### Note:
+* You cannot leave an if statement empty. If you want to pass a specific condition, you can use "pass" statement.
+* You can put an if statement inside another if statement.
+
+```
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+if 1 in x:
+    if 2 in x:
+        pass
+
+    else:
+        print("1 is in list and 2 is not in the list.") # this won't print out
+```
+* If you remove 2 from the list, then it will print out.
+
+#
+* See you on the next document!
